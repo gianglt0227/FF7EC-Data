@@ -1,0 +1,16 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Runs every 30 minutes
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tgymnich/fork-sync@v1.8
+        with:
+          owner: UnknownX7 # Replace with the username of the original repo owner
+          base: main            # Replace with the base branch name in your fork (e.g., main, master)
+          head: main            # Replace with the head branch name in the original repo (e.g., main, master)
