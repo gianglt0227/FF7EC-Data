@@ -12,5 +12,5 @@ jobs:
       - uses: tgymnich/fork-sync@v1.8
         with:
           owner: UnknownX7 # Replace with the username of the original repo owner
-          base: main            # Replace with the base branch name in your fork (e.g., main, master)
-          head: main            # Replace with the head branch name in the original repo (e.g., main, master)
+          base: master            # Replace with the base branch name in your fork (e.g., main, master)
+          head: master            # Replace with the head branch name in the original repo (e.g., main, master)
