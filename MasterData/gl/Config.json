@@ -17,7 +17,7 @@
     "BattleContinueInvincibleSecond": 6,
     "BattleMultiRestoreAtbCost": 3,
     "BattleMultiRestoreInvincibleSecond": 6,
-    "ForceUpdateMaster": 32,
+    "ForceUpdateMaster": 33,
     "BattleScoreSettingId": 0,
     "BattleMultiIdleLimitSecond": 20,
     "DefaultAccessoryLimit": 100,
@@ -140,13 +140,13 @@
     "MemoriaAnalysisPointStaminaCoefficient": 10000,
     "BattleSkipCharacterExpCoefficient": 3000,
     "BattleSkipMemoriaAnalysisPointCoefficient": 1000,
-    "AbilityEnemyPieceCount": 1000,
+    "AbilityEnemyPieceCount": 1,
     "CostumeSubPassiveSkillPointCoefficient": 500,
     "WeaponMedalToLimitMedalCount": 1,
     "WeaponLimitResetToWeaponMedalCount": 200,
     "MaxWeaponLimitMedalExchangeCount": 9999,
     "DefaultWeaponMedalExchangeShopId": 231003,
     "DefaultWeaponLimitMedalExchangeShopId": 205012,
-    "UNK_147": 0
+    "EventDamageRankingBattleTotalPointBoostCoefficient": 3000
   }
 ]
